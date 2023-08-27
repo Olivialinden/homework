@@ -10,7 +10,7 @@ def get_weather_data(api_key, city):
     }
 
 #is a dictionary containing parameters to be included in the API request. 
-#These parameters include the city name, your API key, 
+#These parameters include the city name, my API key, 
 #and the desired units for temperature (metric in this case, which gives temperature in Celsius).
 
     response = requests.get(base_url, params=params)#sends a GET request to the API using the provided parameters.
